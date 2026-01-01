@@ -53,34 +53,34 @@ Bot tích hợp với các plugin Minecraft sau để cung cấp chức năng đ
 Các lệnh dành cho người dùng thông thường:
 
 - `/pointslead [top:10]` - Xem bảng xếp hạng điểm top 10 (hoặc số tùy chỉnh).
-- `/card type:LoạiThẻ amount:SốTiền code:MãThẻ serial:Serial username:TênNgườiDùng` - Nạp thẻ (chỉ trong kênh ticket).
-- `/bank server:Cụm amount:SốTiền username:TênNgườiDùng` - Tạo QR chuyển khoản (chỉ trong kênh ticket).
+- `/card type:LoạiThẻ amount:SốTiền code:MãThẻ serial:Serial username:`TênNgườiDùng`` - Nạp thẻ (chỉ trong kênh ticket).
+- `/bank server:Cụm amount:SốTiền username:`TênNgườiDùng`` - Tạo QR chuyển khoản (chỉ trong kênh ticket).
 - `/kkay help` - Hiển thị danh sách lệnh cơ bản.
 
 ## Lệnh Admin
 
 Các lệnh dành cho admin (yêu cầu quyền admin):
 
-- `/points info username:TênNgườiDùng` - Xem thông tin điểm của người dùng.
-- `/points give username:TênNgườiDùng amount:SốĐiểm` - Cộng điểm cho người dùng.
-- `/points take username:TênNgườiDùng amount:SốĐiểm` - Trừ điểm của người dùng.
-- `/admin bank type:LoạiNgânHàng account_number:SốTàiKhoản` - Cấu hình ngân hàng cho server.
-- `/admin bankstatus` - Xem trạng thái ngân hàng hiện tại.
-- `/admin serveradd name:TênCụm` - Thêm cụm server.
-- `/admin serverdel name:TênCụm` - Xóa cụm server.
-- `/admin serverlist` - Liệt kê các cụm server.
-- `/admin help` - Hiển thị danh sách lệnh admin.
-- `/admin showplaytime username:TênNgườiDùng` - Xem thời gian chơi của người dùng.
-- `/admin setplaytime username:TênNgườiDùng time:ThờiGian` - Đặt thời gian chơi (vd: 3600, 2h, 01:30:00).
-- `/admin ban username:TênNgườiDùng time:ThờiGian reason:LýDo` - Ban người dùng.
-- `/admin unban username:TênNgườiDùng` - Unban người dùng.
-- `/admin mute username:TênNgườiDùng time:ThờiGian reason:LýDo` - Mute người dùng.
-- `/admin unmute username:TênNgườiDùng` - Unmute người dùng.
-- `/admin checkdup [page:1]` - Kiểm tra tài khoản trùng lặp.
-- `/admin remacc uuid:UUID` - Xóa tài khoản theo UUID.
-- `/coupon start target:MụcTiêu percent:PhầnTrăm time_or_limit:ThờiGianHoặcGiớiHạn` - Bắt đầu chương trình coupon.
-- `/coupon end target:MụcTiêu` - Kết thúc chương trình coupon.
-- `/coupon status` - Xem trạng thái coupon hiện tại.
+- /points info username:`TênNgườiDùng` - Xem thông tin điểm của người dùng.
+- /points give username:`TênNgườiDùng` amount:`Xu` - Cộng điểm cho người dùng.
+- /points take username:`TênNgườiDùng` amount:`Xu` - Trừ điểm của người dùng.
+- /admin bank type:`LoạiNgânHàng` account_number:`SốTàiKhoản` - Cấu hình ngân hàng cho server.
+- /admin bankstatus - Xem trạng thái ngân hàng hiện tại.
+- /admin serveradd name:`TênCụm` - Thêm cụm server.
+- /admin serverdel name:`TênCụm` - Xóa cụm server.
+- /admin serverlist - Liệt kê các cụm server.
+- /admin help - Hiển thị danh sách lệnh admin.
+- /admin showplaytime username:`TênNgườiDùng` - Xem thời gian chơi của người dùng.
+- /admin setplaytime username:`TênNgườiDùng` time:`ThờiGian` - Đặt thời gian chơi (vd: 3600, 2h, 01:30:00).
+- /admin ban username:`TênNgườiDùng` time:`ThờiGian` reason:`LýDo` - Ban người dùng.
+- /admin unban username:`TênNgườiDùng` - Unban người dùng.
+- /admin mute username:`TênNgườiDùng` time:`ThờiGian` reason:`LýDo` - Mute người dùng.
+- /admin unmute username:`TênNgườiDùng` - Unmute người dùng.
+- /admin checkdup [page:1]` - Kiểm tra tài khoản trùng lặp.
+- /admin remacc uuid:`UUID` - Xóa tài khoản theo UUID.
+- /coupon start target:`MụcTiêu` percent:`PhầnTrăm` time_or_limit:`ThờiGianHoặcGiớiHạn` - Bắt đầu chương trình coupon.
+- /coupon end target:`MụcTiêu` - Kết thúc chương trình coupon.
+- /coupon status - Xem trạng thái coupon hiện tại.
 
 ## Bảo Mật và Lưu Ý
 
