@@ -52,10 +52,10 @@ Bot tích hợp với các plugin Minecraft sau để cung cấp chức năng đ
 
 Các lệnh dành cho người dùng thông thường:
 
-- `/pointslead [top:10]` - Xem bảng xếp hạng điểm top 10 (hoặc số tùy chỉnh).
-- `/card type:LoạiThẻ amount:SốTiền code:MãThẻ serial:Serial username:`TênNgườiDùng`` - Nạp thẻ (chỉ trong kênh ticket).
-- `/bank server:Cụm amount:SốTiền username:`TênNgườiDùng`` - Tạo QR chuyển khoản (chỉ trong kênh ticket).
-- `/kkay help` - Hiển thị danh sách lệnh cơ bản.
+- /pointslead [top:10] - Xem bảng xếp hạng điểm top 10 (hoặc số tùy chỉnh).
+- /card type:`LoạiThẻ` amount:`SốTiền` code:`MãThẻ` serial:`Serial` username:`TênNgườiDùng` - Nạp thẻ (chỉ trong kênh ticket).
+- /bank server:`Cụm` amount:`SốTiền` username:`TênNgườiDùng` - Tạo QR chuyển khoản (chỉ trong kênh ticket).
+- /kkay help - Hiển thị danh sách lệnh cơ bản.
 
 ## Lệnh Admin
 
